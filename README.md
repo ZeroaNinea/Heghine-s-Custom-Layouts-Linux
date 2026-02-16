@@ -21,5 +21,5 @@ I've edited the Russian (Typewriter) keyboard layout on Linux by adding the rubl
 
 ![Russian (Typewriter) Keyboard Layout](./russian-typewriter.png)
 
-Types ruble! Bohahahaha!
+Types "ruble"! Bohahahaha!
 :3
