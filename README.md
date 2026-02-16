@@ -1,6 +1,10 @@
-# Custom Armenian Keyboard Layout Linux
+# Heghine's Custom Layouts for Linux
 
-I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout. I modified the `/usr/share/X11/xkb/symbols/am` file.
+This repository contains all custom keyboard layouts that I've created or modified for Linux. I modified the files in the `/usr/share/X11/xkb/symbols/` directory on Linux.
+
+## Armenian ՄՈՒԿԸ/ԱՆԻ
+
+I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout.
 
 ![Armenian Keyboard Layout](./layout.png)
 
