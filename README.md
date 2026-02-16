@@ -14,3 +14,9 @@ I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding al
 
 Now I can type the word "ինչ-որ" without switching the keyboard.
 \>:3
+
+## Russian (Typewriter)
+
+I've edited the Russian (Typewriter) keyboard layout on Linux by adding the ruble sign on the Р letter when you hold the Alt key.
+
+![Russian (Typewriter) Keyboard Layout](./typewriter.png)

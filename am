@@ -13,7 +13,7 @@ xkb_symbols "basic" {
     key <AE05>	{[ Armenian_full_stop,	U2026,      5,  percent		]}; // ellipsis
     key <AE06>	{[ Armenian_question,	percent,    6,  asciicircum		]};
     key <AE07>	{[ U2024,		Armenian_ligature_ew,   7,  ampersand ]}; // Armenian semicolon (mijaket)
-    key <AE08>	{[ Armenian_accent,	Armenian_apostrophe,    8,  asterisk		]};
+    key <AE08>	{[ Armenian_accent,	Armenian_apostrophe,    8,  asterisk	]};
     key <AE09>	{[ parenright,		parenleft,  9,  	parenleft	]};
     key <AE10>	{[ Armenian_o,		Armenian_O,     0,   parenright	]};
     key <AE11>	{[ Armenian_e,		Armenian_E,     Armenian_hyphen,  	underscore		]};
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
 
     key <LSGT>	{[ question,		Armenian_hyphen	]};
     key <AB01>	{[ Armenian_zhe,	Armenian_ZHE	]};
-    key <AB02>	{[ Armenian_da,		Armenian_DA	]};
+    key <AB02>	{[ Armenian_da,		Armenian_DA,    U058F	]}; // Dram sign: ֏
     key <AB03>	{[ Armenian_cha,	Armenian_CHA	]};
     key <AB04>	{[ Armenian_hi,		Armenian_HI	]};
     key <AB05>	{[ Armenian_za,		Armenian_ZA	]};
