@@ -1,4 +1,4 @@
-# Heghine's Custom Layouts for Linux
+# Heghine's Custom Layouts for Linux :3
 
 This repository contains all custom keyboard layouts that I've created or modified for Linux with the Ubuntu distribution. I modified the files in the `/usr/share/X11/xkb/symbols/` directory on Linux. If you want to use the same layouts just replace the files from the `/usr/share/X11/xkb/symbols/` directory with the ones from this repository.
 
