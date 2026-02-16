@@ -1,6 +1,6 @@
 # Heghine's Custom Layouts for Linux :3
 
-This repository contains all custom keyboard layouts that I've created or modified for Linux with the Ubuntu distribution. I modified the files in the `/usr/share/X11/xkb/symbols/` directory on Linux. If you want to use the same layouts just replace the files from the `/usr/share/X11/xkb/symbols/` directory with the ones from this repository.
+This repository contains all Heghine's official custom keyboard layouts that I've created or modified for Linux with the Ubuntu distribution. I modified the files in the `/usr/share/X11/xkb/symbols/` directory on Linux. If you want to use the same layouts just replace the files from the `/usr/share/X11/xkb/symbols/` directory with the ones from this repository.
 
 ## ⚠️ Warning
 
@@ -8,9 +8,9 @@ This repository contains all custom keyboard layouts that I've created or modifi
 
 ## Armenian ՄՈՒԿԸ/ԱՆԻ
 
-I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout.
+I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout, and add the dram sign on the Դ letter when you hold the Alt key.
 
-![Armenian Keyboard Layout](./layout.png)
+![ՄՈՒԿԸ/ԱՆԻ Keyboard Layout](./muky-ani.png)
 
 Now I can type the word "ինչ-որ" without switching the keyboard.
 \>:3
@@ -19,4 +19,7 @@ Now I can type the word "ինչ-որ" without switching the keyboard.
 
 I've edited the Russian (Typewriter) keyboard layout on Linux by adding the ruble sign on the Р letter when you hold the Alt key.
 
-![Russian (Typewriter) Keyboard Layout](./typewriter.png)
+![Russian (Typewriter) Keyboard Layout](./russian-typewriter.png)
+
+Types ruble! Bohahahaha!
+:3
