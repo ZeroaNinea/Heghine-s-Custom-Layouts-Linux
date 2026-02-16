@@ -8,7 +8,7 @@ This repository contains all Heghine's official custom keyboard layouts that I'v
 
 ## Armenian ՄՈՒԿԸ/ԱՆԻ
 
-I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout, and add the dram sign on the Դ letter when you hold the Alt key.
+I've edited the Armenian ՄՈՒԿԸ/ԱՆԻ keyboard layout on Linux by adding all the missing symbols from the QWERTY layout plus em dash and em dash, and add the dram sign on the Դ letter when you hold the Alt key.
 
 ![ՄՈՒԿԸ/ԱՆԻ Keyboard Layout](./muky-ani.png)
 
@@ -17,7 +17,7 @@ Now I can type the word "ինչ-որ" without switching the keyboard.
 
 ## Russian (Typewriter)
 
-I've edited the Russian (Typewriter) keyboard layout on Linux by adding the ruble sign on the Р letter when you hold the Alt key.
+I've edited the Russian (Typewriter) keyboard layout on Linux by adding the ruble sign on the Р letter when you hold the Alt key. And em dash and em dash in the 2 key.
 
 ![Russian (Typewriter) Keyboard Layout](./russian-typewriter.png)
 
