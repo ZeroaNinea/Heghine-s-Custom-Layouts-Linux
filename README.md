@@ -24,6 +24,62 @@ I've edited the Russian (Typewriter) keyboard layout on Linux by adding the rubl
 Types "ruble"! Bohahahaha!
 :3
 
+## English (Rixēspēk)
+
+### Warning
+
+> Don't do this for now. It's just a prototype.
+
+To add a Rixēspēk keyboard layout edit the `/usr/share/X11/xkb/symbols/us` file.
+
+```xkb
+partial alphanumeric_keys
+xkb_symbols "dvorak_rixe" {
+
+    include "us(dvorak)"
+
+    name[Group1]= "English (Dvorak, Rixēspēk)";
+
+    key <AE11> { [ U0101, U0100, bracketleft, braceleft ] }; // ā Ā
+    key <AE12> { [ U0113, U0112, bracketright, braceright ] }; // ē Ē
+    key <AD01> { [ U012B, U012A, apostrophe,    quotedbl ] }; // ī Ī
+    key <AD03> { [ U014D, U014C, period,    greater ] }; // ō Ō
+    key <BKSL> { [ U016B, U016A, backslash,    bar ] }; // ū Ū
+    key <AD11> { [ U0153, U0152, slash,    question ] }; // œ Œ
+    key <AD12> { [ U0142, U0141, equal,    plus ] }; // ł Ł
+};
+```
+
+Now edit the `/usr/share/X11/xkb/rules/evdev.xml` file. Add a new variant to the `us` layout.
+
+```xml
+<layout>
+  <configItem>
+    <name>us</name>
+    ...
+  </configItem>
+
+  <variantList>
+
+    ... existing variants ...
+
+    <variant>
+      <configItem>
+        <name>dvorak_rixe</name>
+        <description>Dvorak (Rixēspēk)</description>
+      </configItem>
+    </variant>
+
+  </variantList>
+</layout>
+```
+
+Now you can switch to the Rixēspēk keyboard layout.
+
+```bash
+setxkbmap us dvorak_rixe
+```
+
 ## Fixes
 
 If you broke something just reinstall the `xkb-data` package.
