@@ -28,7 +28,7 @@ Types "ruble"! Bohahahaha!
 
 ### Warning
 
-> Don't do this for now. It's just a prototype.
+> Don't do this for now! It's just a prototype.
 
 To add a Rixēspēk keyboard layout edit the `/usr/share/X11/xkb/symbols/us` file.
 
@@ -72,6 +72,13 @@ Now edit the `/usr/share/X11/xkb/rules/evdev.xml` file. Add a new variant to the
 
   </variantList>
 </layout>
+```
+
+Rebuild the cache.
+
+```bash
+sudo rm -rf /var/lib/xkb/*
+sudo dpkg-reconfigure xkb-data
 ```
 
 Now you can switch to the Rixēspēk keyboard layout.
