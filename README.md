@@ -23,3 +23,23 @@ I've edited the Russian (Typewriter) keyboard layout on Linux by adding the rubl
 
 Types "ruble"! Bohahahaha!
 :3
+
+## Fixes
+
+If you broke something just reinstall the `xkb-data` package.
+
+```bash
+sudo apt reinstall xkb-data
+```
+
+Now clear the cache:
+
+```bash
+sudo rm -rf /var/lib/xkb/*
+```
+
+And reboot.
+
+```bash
+sudo reboot
+```
