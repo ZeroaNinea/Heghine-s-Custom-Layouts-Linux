@@ -113,7 +113,7 @@ xkb_symbols "typewriter" {
 
     key <TLDE>	{[         bar,        plus  ]};
     key <AE01>	{[  numerosign,           1  ]};
-    key <AE02>	{[       minus,           2  ]};
+    key <AE02>	{[       minus,           2,     U2014,    U2013]};
     key <AE03>	{[       slash,           3  ]};
     key <AE04>	{[    quotedbl,           4  ]};
     key <AE05>	{[       colon,           5  ]};
