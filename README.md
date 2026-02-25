@@ -40,13 +40,15 @@ xkb_symbols "dvorak_rixe" {
 
     name[Group1]= "English (Dvorak, Rixēspēk)";
 
-    key <AE11> { [ U0101, U0100, bracketleft, braceleft ] }; // ā Ā
-    key <AE12> { [ U0113, U0112, bracketright, braceright ] }; // ē Ē
     key <AD01> { [ U012B, U012A, apostrophe,    quotedbl ] }; // ī Ī
-    key <AD03> { [ U014D, U014C, period,    greater ] }; // ō Ō
-    key <BKSL> { [ U016B, U016A, backslash,    bar ] }; // ū Ū
-    key <AD11> { [ U0153, U0152, slash,    question ] }; // œ Œ
-    key <AD12> { [ U0142, U0141, equal,    plus ] }; // ł Ł
+    key <AD02> {[ U0101, U0100,     comma,    less ]}; // ā Ā
+    key <AD03> {[ U0113, U0112,  period,    greater ]}; // ē Ē
+    key <AB01> { [ U014D, U014C, semicolon,    colon ] }; // ō Ō
+    key <AC11> { [ U016B, U016A, minus,       underscore ] }; // ū Ū
+    key <AD11> { [ U0142, U0141, equal,    plus ] }; // ł Ł
+    key <AD12> { [ U0153, U0152, slash,    question ] }; // œ Œ
+
+    include "level3(ralt_switch)"
 };
 ```
 
