@@ -28,7 +28,7 @@ Types "ruble"! Bohahahaha!
 
 To add a Rixēspēk keyboard layout edit the `/usr/share/X11/xkb/symbols/us` file.
 
-![dvorak_rixe Keyboard Layout](./dvorak-rixe.png)
+![dvorak_rixe Keyboard Layout](./dvorak_rixe.png)
 
 ```xkb
 partial alphanumeric_keys
