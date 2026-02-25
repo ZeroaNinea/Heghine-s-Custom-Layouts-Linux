@@ -87,6 +87,12 @@ Now you can switch to the Rixēspēk keyboard layout.
 setxkbmap us dvorak_rixe
 ```
 
+Display the keyboard layout.
+
+```bash
+gkbd-keyboard-display -l dvorak_rixe
+```
+
 ## Fixes
 
 If you broke something just reinstall the `xkb-data` package.
