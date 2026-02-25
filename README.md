@@ -24,10 +24,6 @@ I've edited the Russian (Typewriter) keyboard layout on Linux by adding the rubl
 Types "ruble"! Bohahahaha!
 :3
 
-## ⚠️ Warning 2
-
-> Don't try to add a Rixēspēk keyboard for now! It's just a prototype.
-
 ## English (Rixēspēk)
 
 To add a Rixēspēk keyboard layout edit the `/usr/share/X11/xkb/symbols/us` file.
