@@ -43,8 +43,8 @@ xkb_symbols "dvorak_rixe" {
     key <AD03> {[ U0113, U0112,  period,    greater ]}; // ē Ē
     key <AB01> { [ U014D, U014C, semicolon,    colon ] }; // ō Ō
     key <AC11> { [ U016B, U016A, minus,       underscore ] }; // ū Ū
-    key <AD11> { [ U0142, U0141, equal,    plus ] }; // ł Ł
-    key <AD12> { [ U0153, U0152, slash,    question ] }; // œ Œ
+    key <AD11> { [ U0142, U0141, slash,    question ] }; // ł Ł
+    key <AD12> { [ U0153, U0152, equal,    plus ]}; // œ Œ
 
     include "level3(ralt_switch)"
 };
