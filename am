@@ -9,7 +9,7 @@ xkb_symbols "basic" {
     key <AE01>	{[ Armenian_fe,		Armenian_FE,    1,  exclam]};
     key <AE02>	{[ Armenian_dza,	Armenian_DZA,   2,  at]};
     key <AE03>	{[ minus,	U2014,      3,   numbersign]}; // emdash
-    key <AE04>	{[ comma,		dollar,     4,		dollar]};
+    key <AE04>	{[ comma,		U2013,     4,		dollar]};
     key <AE05>	{[ Armenian_full_stop,	U2026,      5,  percent		]}; // ellipsis
     key <AE06>	{[ Armenian_question,	percent,    6,  asciicircum		]};
     key <AE07>	{[ U2024,		Armenian_ligature_ew,   7,  ampersand ]}; // Armenian semicolon (mijaket)
